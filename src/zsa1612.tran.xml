@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZSA1612</TCODE>
+    <PGMNA>SAPMZSA1612</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZSA1612</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZSA1612</TCODE>
+    <TTEXT>SubScreen 1612</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

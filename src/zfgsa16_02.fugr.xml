@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>[SA16] Function G</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFGSA16_02F01</SOBJ_NAME>
+    <SOBJ_NAME>LZFGSA16_02TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFGSA16_02</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFSA16_21</FUNCNAME>
+     <SHORT_TEXT>[SA16] Get Airline info &amp; Connection Info</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0080-CARRID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0080-CONNID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_AIRLINE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0081</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_CONN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0082</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_SUBRC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-SUBRC</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight Connection Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_AIRLINE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[SA00] Airline Info( Display / Create / Update )</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_CONN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[SA00] Flight Info</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SUBRC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Return Code of ABAP Statements</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

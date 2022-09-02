@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","sync/navi02/model/models"],function(e,i,t){"use strict";return e.extend("sync.navi02.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRouter().+
+initialize();this.setModel(t.createDeviceModel(),"device")}})});                                                                                                                                                                                               

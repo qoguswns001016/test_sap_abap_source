@@ -1,0 +1,1 @@
+sap.ui.require(["sync/navi02/test/integration/AllJourneys"],function(){QUnit.config.autostart=false;QUnit.start()});                                                                                                                                           

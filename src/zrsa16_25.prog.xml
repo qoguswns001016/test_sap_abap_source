@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZRSA16_25</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>C1</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>C2</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>003</KEY>
+     <ENTRY>C3</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>004</KEY>
+     <ENTRY>C4</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>[SA16] Include Program</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CAR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>15</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CON1</KEY>
+     <ENTRY>Start Connection Number</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CON2</KEY>
+     <ENTRY>End Connection Number</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>List Header1</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

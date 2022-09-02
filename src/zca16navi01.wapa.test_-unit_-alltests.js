@@ -1,0 +1,1 @@
+sap.ui.define(["sync/navi01/test/unit/controller/View1.controller"],function(){"use strict"});                                                                                                                                                                 

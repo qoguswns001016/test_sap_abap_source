@@ -1,0 +1,1 @@
+sap.ui.define(["sync/navi02/controller/View1.controller"],function(n){"use strict";QUnit.module("View1 Controller");QUnit.test("I should test the View1 controller",function(t){var e=new n;e.onInit();t.ok(e)})});                                            

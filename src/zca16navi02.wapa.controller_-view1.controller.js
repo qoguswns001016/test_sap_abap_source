@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/Filter"],function(t,e){"use strict";return t.extend("sync.navi02.controller.View1",{onInit:function(){let t=this.getOwnerComponent().getComponentData();if(t&&t.startupParameters&&t.startupParamete+
+rs.pCarrid){this._carrid=t.startupParameters.pCarrid[0]}},onAfterRendering:function(){let t=new e("Carrid","EQ",this._carrid);let r=this.getView().byId("idSpfli");let i=r.getBinding("items");i.filter(t)}})});                                               

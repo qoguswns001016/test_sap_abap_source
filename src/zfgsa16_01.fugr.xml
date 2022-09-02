@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>[SA16] Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFGSA16_01TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFGSA16_01</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFSA16_01</FUNCNAME>
+     <SHORT_TEXT>Function Module</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PERNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0073-PERNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_ENAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSSA0073-ENAME</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PERNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[SA00] Personal Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ENAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[SA00] Employee Name</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
